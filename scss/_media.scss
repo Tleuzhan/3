@@ -1,0 +1,155 @@
+@media (max-width: 1600px) {
+    
+    .section-top_phone-img {
+        display: none;
+    }
+
+    .header_dots {
+        top: 115%;
+    }
+
+    
+}
+
+
+@media (max-width: 1200px) {
+
+    // -- Top -- //
+
+    .logo {
+        width: 20%;
+    }
+
+    .nav-main {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        right: 0;
+        
+        ul {
+           text-align: center;
+           flex-direction: column;
+           min-height: 100vh;
+           background: rgba(11, 20, 25, 0.9);
+        }
+    }
+
+    .header-page_hamburger {
+        display: block;
+
+    }
+    
+    .header_dots {
+        top: 110%;
+    }
+    
+    .section-top_slider {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .section-top_slider-title {
+        h1 {
+            text-align: center;
+        }
+    }
+    
+    
+
+    // -- Top  -- //
+
+    // -- Features  -- //
+
+    .section-features_items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    // -- Features  -- //
+
+    .section-gallery_items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        .section-gallery_inner-item {
+            padding: 20px 0;
+            margin: 100px auto;
+            max-width: 100%;
+        }
+    }
+
+    .section-testimonials_text {       
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 714px) {
+
+    .section-top_slider-title {
+        .title-1 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .title-2 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .section-top_info {
+        font-size: 15px;
+    }
+
+    .section-features_items {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .section-prices_items {
+        display: block;
+    }
+
+
+    .section-prices_inner-item {
+        max-width: 100%;
+        min-height: 475px;
+        margin: 0 auto;
+    }
+    
+    .price3 {
+        margin-top: 55px;
+    }
+    
+}
+
+    
+@media (max-width: 600px) { 
+    .section-testimonials {
+        min-height: 440px;
+    }
+}
+
+@media (max-width: 575px) { 
+    
+    .section-top_btn-contain {
+        float: none;
+    }
+
+    .section-gallery_items {
+        display: grid;
+        grid-template-columns: 1fr;
+        .section-gallery_inner-item {
+            padding: 20px 0;
+            margin: 100px auto;
+        }
+    }
+ }
+
+ @media (max-width: 500px) {
+
+    .section-testimonials {
+        min-height: 480px;
+    }
+ }
+

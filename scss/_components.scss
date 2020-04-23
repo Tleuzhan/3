@@ -1,0 +1,112 @@
+.btn {
+    width: 195px;
+    height: 61px;
+    background-color: $blue;
+    box-shadow: 0 4px 0 #277697;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: .02em;
+    font-family: Lato;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 18px 20px;
+    max-width: 100%;
+    transition: color .2s, background .2s, opacity .2s;
+}
+
+.btn-menu {
+  background: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px;
+  border: 0;
+}
+
+.btn-menu_box {
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+.btn-menu_inner::before,
+.btn-menu_inner::after,
+.btn-menu_inner {
+  background: #fff;
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+}
+
+.btn-menu_inner {
+  display: block;
+  top: 50%;
+  position: relative;
+}
+
+.btn-menu_inner::before,
+.btn-menu_inner::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.btn-menu_inner::before {
+  top: -10px;
+}
+
+.btn-menu_inner::after {
+  bottom: -10px;
+}
+
+// Slick Slider Arrows start.
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    outline: none;
+    background: $blue;
+    border-radius: 30px;
+
+    &::before{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'fontawesome';
+        color: #fff;
+      }
+  }
+
+  .slick-btn.slick-disabled{
+    cursor: default;
+    background: transparent;
+  }
+
+  .slick-next{
+    right: 0;
+    &::before{
+        content: "\f105";
+      }
+  }
+
+  .slick-prev{
+    left: 0;
+    &::before{
+        content: "\f104";
+      }
+  }
+
+  // Slick Slider Arrows end.
+
+
+
